@@ -65,13 +65,11 @@ Constraints:
             
             //if we go to the left, our ditance on the scale becomes negative 
             if(frontNode->left){
-                q.push(make_pair(frontNode->left,
-                make_pair(distance-1, level+1) ));
+                q.push(make_pair(frontNode->left, make_pair(distance-1, level+1) ));
             }
             //if we go to the right, our distance increases because root was at 0
              if(frontNode->right){
-                q.push(make_pair(frontNode->right,
-                make_pair(distance+1, level+1) ));
+                q.push(make_pair(frontNode->right,make_pair(distance+1, level+1) ));
             }
         }
             for(auto i: nodes){
