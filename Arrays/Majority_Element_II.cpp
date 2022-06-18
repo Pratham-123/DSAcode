@@ -23,6 +23,7 @@ Constraints:
 1 <= nums.length <= 5 * 104
 -109 <= nums[i] <= 109
  
+ Boyer-Moore Majority Voting
 
 Follow up: Could you solve the problem in linear time and in O(1) space?
   
